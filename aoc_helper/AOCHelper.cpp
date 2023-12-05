@@ -10,6 +10,18 @@ void AOCHelper::printFirst() {
 	std::cout << input[0] << std::endl;
 }
 
+std::vector<std::string> AOCHelper::splitOn(const std::string& s, char delim) {
+
+	std::vector<std::string> return_val;
+	std::string temp_str;
+
+	for (int i=0; i<s.length(); i++) {
+		std::cout << s[i] << std::endl;
+	}
+
+	return return_val;
+}
+
 AOCHelper::AOCHelper(const std::string& inputFilename) {
 	input = parseFile(inputFilename);
 }

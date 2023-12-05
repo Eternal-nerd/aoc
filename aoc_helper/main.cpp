@@ -7,6 +7,8 @@ int main() {
 
 	instance.printFirst();
 
+	instance.splitOn("hellooo", 'h');
+
 	return 0;
 
 }
